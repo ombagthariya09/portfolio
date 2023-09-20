@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portpholio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <!-- <a href="#portfolio">Portfolio</a> -->
+            <a href="#contact">Contect</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello it's Me</h3>
+            <h1>Om Bagthariya</h1>
+            <h3>And I"m a 
+                <span>MCA Student</span></h3>
+            <p>
+                i am study in marwadi univercity
+            </p>
+            <div class="social-media">
+                <!-- <a href="https://www.linkedin.com/in/hiren-keshvani-062a33289/"><i class='bx bxl-linkedin' ></i></a> -->
+                <a href="https://www.instagram.com/o_m_k_a_r_a_09/"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="tel:+919998616850"><i class='bx bxs-phone-call'></i></a>
+                <!-- <a href="https://twitter.com/hirenkeshvani5"><i class='bx bxl-twitter' ></i></a> -->
+                <a href="https://wa.me/9998616850?text=Hi%20Sir!"><i class='bx bxl-whatsapp'></i></a>
+                
+                
+            </div>
+            <a href="https://drive.google.com/drive/folders/1FVnmoG6QdIr7BdGqB_nkGaaVVzOG3zdv" class="bth">Downlod Cv</a>
+        </div>
+        <div class="home-img">
+            <img src="om3.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="om4.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heding">About <span>Me</span></h2>
+            <h3>MCA Student!</h3>
+            <p>Hey!  i’m Om Bagthariya
+                i completed my Bechlor of  Commarce at P.K.M collage junagadh.
+                Currently I’m study in Marwadi University  Rajkot.
+                I have a leardership sklill,
+                 </p>
+            <a href="#" class="bth">Read More</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heding">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code'></i>
+                <h3>Web development</h3>
+                <p>Full-stack developers can create web applications tailored to your unique needs, using a combination of front-end & Back-end technologies
+                    </p>
+                    <a href="#" class="bth">Read More</a>
+            </div>
+
+           
+                <div class="services-box">
+                    <i class='bx bxs-paint' ></i>
+                    <h3>Graphic Designer</h3>
+                    <p>Creating unique and memorable logos for businesses or individuals. Designing promotional materials for Crafting visually appealing and user-friendly websites.</p>
+                        <a href="#" class="bth">Read More</a>
+                </div>
+
+                
+                    <div class="services-box">
+                        <i class='bx bx-bar-chart-alt' ></i>
+                        <h3>Degital Marketing</h3>
+                        <p>Using platforms like Facebook, Instagram, Twitter, and LinkedIn to reach and engage with your audience, promote content, and build brand awareness.</p>
+                            <a href="#" class="bth">Read More</a>
+                    </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heding">Contect <span>Me!</span></h2>
+
+        
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobail Number">
+                <input type="text" placeholder="Email Suject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <!-- <button type="submit" value="Send Messaage" class="bth"></button> -->
+            <input type="submit" value="Send Messaage" class="bth">
+        </form>
+        
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2020 by Codehal | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+     <!-- scroll revel -->
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+     <!-- typed js -->
+ 
+     <script src="https://smtpjs.com/v3/smtp.js">
+     </script>
+</body>   
+</html>
